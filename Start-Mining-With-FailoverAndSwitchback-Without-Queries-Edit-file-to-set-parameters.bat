@@ -11,7 +11,7 @@ Echo %DATE% %TIME% Shutting down any active Geth node or ethminer instance to pr
 taskkill /f /im geth.exe >nul 2>&1
 taskkill /f /im ethminer.exe >nul 2>&1
 Echo %DATE% %TIME% Starting Geth node to update blockchain so it is prepared for local ethmining if us1.Ethpool.org goes down | batchTee FailoverAndSwitchbackHistoryLog.txt +
-Start /MIN "Geth" "geth"  --autodag -rpc --maxpeers 128 console 2>>geth.log 
+Start /MIN "Geth" "geth"  --autodag -rpc --maxpeers 25 console 2>>geth.log 
 
 set ipaddr=us1.ethpool.org
 
