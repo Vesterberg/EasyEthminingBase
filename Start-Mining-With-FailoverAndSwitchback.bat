@@ -4,7 +4,7 @@
 Echo Welcome to FailoverAndSwitchback
 
 set etherAddress=0x2d96cefbdec4c5a6ea88d9496fdeddefa561adcd
-set /p etherAddress=Which mining address would you like to mine for today? Input your own or press 'Enter' to mine for the developer:
+set /p etherAddress=Which Ether address would you like to mine ether for today? Input your own or press 'Enter' to mine for the developer:
 set miningDifficulty=5
 set /p miningDifficulty=What is the hashrate in megahashes per seconds, mhs, of your miner? Input your own or press 'Enter' to use the default setting of 5 mhs (minimum is 0.1):
 set farmRecheckValue=5000
